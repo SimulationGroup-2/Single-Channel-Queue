@@ -21,7 +21,7 @@
         <li><a href="#mathematical-analysis">Mathematical Analysis</a></li>
       </ul>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#release-history">Release History</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -90,14 +90,11 @@ For waiting time, using the formula: if (current customer arrival time < previou
 Then finding the customer who waits by counting the value of waiting time which is greater than "Zero".And implemented the logic in for loop.
 For Time Customer Spends in System(min) = waiting time + service time and implemented the logic in for loop. For an idle time, we use the formula: if (previous customer time service ends time < current customer arrival time ) then current customer arrival time - previous customer time service ends time ELSE there is no idle time".Finally generating the whole single-channel queue table. And also find out the average number of customer waiting and Average waiting time for a customer.
 
-* npm
-  ```sh
-
-
-=
-
-
-
+## Release History
+* 0.1.0
+    * CHANGE: Update readme and code`
+* 0.0.1
+    * Work in progress
 
 
 <!-- CONTRIBUTING -->
