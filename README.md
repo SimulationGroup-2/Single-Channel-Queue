@@ -108,5 +108,5 @@ For Time Customer Spends in System(min) = waiting time + service time and implem
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE`(https://pages.github.com) for more information.
 
