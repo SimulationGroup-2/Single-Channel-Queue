@@ -116,6 +116,7 @@ Distributed under the GNU License. See [LICENSE](https://github.com/SimulationGr
   NAME:[Rifat Bin Anwar]       (rbinanwar@avc.edu)
   NAME:[Pushpita Shil]         (pshpita17@gmail.com)
   
+  <!--Under Supervision -->
  ## Under Supervision
  #Honourable Sir [Muhtadir Shihab]
   
