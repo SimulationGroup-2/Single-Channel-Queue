@@ -110,11 +110,11 @@ For Time Customer Spends in System(min) = waiting time + service time and implem
 
 Distributed under the GNU License. See [LICENSE](https://github.com/SimulationGroup-2/Single-Channel-Queue/blob/1e3a25915c98be6823b5de18afa3d46ce0f9a873/LICENSE) for more information.
 ## Contact
-  Name:Subashis Roy Bhowmik  Email:bhowmiksj@gmail.com
-  Name:Dabasish Das Joy      Email:dabasishdasjoy92@gmail.com
-  NAME:Muntasir Ahmed        Email:muntasir99@gmail.com
-  NAME:Rifat Bin Anwar       Email:rbinanwar@avc.edu
-  NAME:Pushpita Shil         Email:pushpita17@gmail.com
+  Name:[Subashis Roy Bhowmik]  (bhowmiksj@gmail.com)
+  Name:[Dabasish Das Joy]    (dabasishdasjoy92@gmail.com)
+  NAME:[Muntasir Ahmed]        (muntasir99@gmail.com)
+  NAME:[Rifat Bin Anwar]       (rbinanwar@avc.edu)
+  NAME:[Pushpita Shil]         (pshpita17@gmail.com)
   
   
 
