@@ -15,13 +15,13 @@
       <a href="#Introduction">Introduction</a>
       <ul>
         <li><a href="#Introduction">Introduction</a></li>
-        <li><a href="#Single-Channel Queuing Problems">Single-Channel Queuing Problems</a></li>
-        <li><a href="#Random Variable">Random Variable</a></li>
+         <li><a href="#Random Variable">Random Variable</a></li>
+        <li><a href="#Single-Channel-Queuing-Problems">Single-Channel-Queuing-Problems</a></li>
         <li><a href="#Poisson Arrivals">Poisson Arrivals</a></li>
         <li><a href="#Exponential Service Times">Exponential Service Times</a></li>
-      </ul>
+        <li><a href="#Mathematical Analysis">Mathematical Analysis</a></li>
+     </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -76,22 +76,16 @@ In Exponential Distribution, we can generate an exponentially distributed random
 
 
 
-##**Single Channel Queue**##
-So first we import scipy.stats package for importing necessary funtion.
+##Mathematical Description
+So first we import scipy.stats package for importing necessary function.
 Here we use Poisson and Exponential Distribution to generate interarrival time and service time respectively.
-µ=5.6 customers/minute (arrival rate) λ=1 customers/minute (service rate) for 20 customers.
-So for Poisson Distribution we use mu=5.6 and size=19 .Because for the first customer interarrival time is always none(0) thats why we use size=19.
-So for Exponential Distribution we use scale=1,loc=0,size=20.
-Then we find the arrival time using the formula :current customer interarrival time + previous customer arrival time and implement it in a for loop.
-Then we find out service time using Exponential Distribution using the above values.
-For Time service begin time we use the formula : if (current customer arrival time < previous customer Time service Ends time ) then current customer Time service Begin time = previous customer Time service Ends time ELSE current customer arrival time.
-For time service ends time we use we use the formula : current customer time service begin time + current custome service time.
-For waiting time, using formula: if (current customer arrival time < previous customer time service ends time ) then Previous customer time service ends time - current customer arrival time ELSE "Zero".
-Then finding the customer who wait by counting value of waiting time which is greater than "Zero".And implemented the logic in for loop.
-For Time Customer Spends in System(min) = waiting time + service time and implemented the logic in for loop.
-For idle time , we use formula: if (previous customer time service ends time < current customer arrival time ) then current customer arrival time - previous customer time service ends time ELSE "Zero".
-Finally generating the whole single channel queue  table.
-And also find out the Average number of customer waiting and Average waiting time for a customer.
+µ=5.6 customers/minute (arrival rate) λ=1 customers/minute (service rate) for 20 customers.So for Poisson Distribution, we use mu=5.6 and size=19. Because for the first customer there is no interarrival time that's why we use size=19.So for Exponential Distribution we use scale=1,loc=0,size=20.
+Then we find the arrival time using the formula: current customer interarrival time + previous customer arrival time and implement it in for a loop. Then we find out service time using Exponential Distribution using the above values. For Time service begin time we use the formula: if (current customer arrival time < previous customer Time service Ends time ) then current customer Time service Begin time = previous customer Time service Ends time ELSE current customer arrival time.
+For time service ends time we use we use the formula: current customer time service begin time + current customer service time.
+For waiting time, using the formula: if (current customer arrival time < previous customer time service ends time ) then Previous customer time service ends time - current customer arrival time ELSE "Zero".
+Then finding the customer who waits by counting the value of waiting time which is greater than "Zero".And implemented the logic in for loop.
+For Time Customer Spends in System(min) = waiting time + service time and implemented the logic in for loop. For an idle time, we use the formula: if (previous customer time service ends time < current customer arrival time ) then current customer arrival time - previous customer time service ends time ELSE there is no idle time".Finally generating the whole single-channel queue table. And also find out the average number of customer waiting and Average waiting time for a customer.
+
 
 
 
