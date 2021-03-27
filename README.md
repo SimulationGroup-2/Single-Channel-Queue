@@ -8,7 +8,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Requirements">Requirements</a></li>
       </ul>
     </li>
     <li>
@@ -31,11 +31,18 @@
 ## About The Project
 The implementation of python projects deals with one problem of single-channel queuing problems. It shows that a single-channel queuing model without losses can be used to solve queuing problems. It is composed of the queue and service center and uses the FIFO system.A single-channel queue can be used for a bank system /ticket counter service/any delivery service.
 
+### Requirements
+The main requirements are listed below:
+
+Python 3.6
+Numpy
+Scikit-Learn
+Matplotlib Additional requirements to generate dataset:
+PyDicom
+Pandas
+Jupyter
 
 
-### Built With
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 * [Laravel](https://laravel.com)
