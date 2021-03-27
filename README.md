@@ -12,9 +12,9 @@
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#Introduction">Introduction</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#Introduction">Introduction</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -33,14 +33,6 @@ The implementation of python projects deals with one problem of single-channel q
 
 ### Requirements
 The main requirements are listed below:
-
-
-
-
-
-
-
-
 * [Python 3.6](https://www.python.org/)
 * [Numpy](https://numpy.org/)
 * [Scikit-Learn](https://scikit-learn.org/stable/)
@@ -51,7 +43,8 @@ The main requirements are listed below:
 
 
 
-
+<!-- Introduction -->
+## Introduction
 
 
 
