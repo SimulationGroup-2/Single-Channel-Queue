@@ -34,18 +34,20 @@ The implementation of python projects deals with one problem of single-channel q
 ### Requirements
 The main requirements are listed below:
 
-Python 3.6
-Numpy
-Scikit-Learn
-Matplotlib Additional requirements to generate dataset:
-PyDicom
-Pandas
-Jupyter
 
 
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+
+
+
+
+
+* [Python 3.6](https://www.python.org/)
+* [Numpy](https://getbootstrap.com)
+* [Scikit-Learn](https://jquery.com)
+* [Matplotlib](https://laravel.com)
+* [Pandas](https://getbootstrap.com)
+* [Jupyter](https://getbootstrap.com)
+
 
 
 
