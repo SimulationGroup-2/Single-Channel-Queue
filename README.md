@@ -42,11 +42,11 @@ The main requirements are listed below:
 
 
 * [Python 3.6](https://www.python.org/)
-* [Numpy](https://getbootstrap.com)
-* [Scikit-Learn](https://jquery.com)
-* [Matplotlib](https://laravel.com)
-* [Pandas](https://getbootstrap.com)
-* [Jupyter](https://getbootstrap.com)
+* [Numpy](https://numpy.org/)
+* [Scikit-Learn](https://scikit-learn.org/stable/)
+* [Matplotlib](https://matplotlib.org/)
+* [Pandas](https://pandas.pydata.org/)
+* [Jupyter](https://jupyter.org/)
 
 
 
@@ -56,13 +56,7 @@ The main requirements are listed below:
 
 
 
-## We are students of CSE!!
 
-- 🔭 NAME:Debashis Das Joy      ID:CSE 01306122
-- 👯 NAME:Subashis Roy Bhowmik  ID:CSE 01306114
-- 🥅 NAME:Muntasir Ahmed        ID:CSE 01306090
-- ⚡ NAME:Rifat Bin Anwar       ID:CSE 01306116
-- ⚡ NAME:Pushpita Shil         ID:CSE 01306100
 
 
 
@@ -95,6 +89,13 @@ And also find out the Average number of customer waiting and Average waiting tim
 
 
 
+<!-- CONTRIBUTING -->
+## Contributing
 
+- 🔭 NAME:Debashis Das Joy      ID:CSE 01306122
+- 👯 NAME:Subashis Roy Bhowmik  ID:CSE 01306114
+- 🥅 NAME:Muntasir Ahmed        ID:CSE 01306090
+- ⚡ NAME:Rifat Bin Anwar       ID:CSE 01306116
+- ⚡ NAME:Pushpita Shil         ID:CSE 01306100
 
 
