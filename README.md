@@ -48,7 +48,7 @@ To describe queuing problems through mathematical formulation, some assumptions 
 both of the gamma and Weibull distributions.
 
 
-#RandomVariable
+### Random Variable
 A random variable is a variable whose possible values are numerical outcomes of a random phenomenon. There are two types of random variables, discrete and continuous.
 
 A discrete random variable may take on only a countable number of distinct values and thus can be quantified. For example, you can define a random variable X to be the number that comes up when you roll a fair dice. X can take values : [1,2,3,4,5,6] and therefore is a discrete random variable.
