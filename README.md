@@ -16,9 +16,9 @@
       <ul>
         <li><a href="#random-variable">Random Variable</a></li>
         <li><a href="#single-channel-queuing-problems">Single Channel Queuing Problems</a></li>
-        <li><a href="#single-channel-queuing-problems">Single Channel Queuing Problems</a></li>
-        <li><a href="#single-channel-queuing-problems">Single Channel Queuing Problems</a></li>
-        <li><a href="#single-channel-queuing-problems">Single Channel Queuing Problems</a></li>
+        <li><a href="#poisson-arrivals">Poisson Arrivals</a></li>
+        <li><a href="#exponential-service-times">Exponential Service Times</a></li>
+        <li><a href="#mathematical-analysis">Mathematical Analysis</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -63,7 +63,7 @@ A curve meeting needed requirements is often known as a density curve. Some exam
 
 There’s another type of distribution that often pops up in literature which you should know about called cumulative distribution function. All random variables (discrete and continuous) have a cumulative distribution function. It is a function giving the probability that the random variable X is less than or equal to x, for every value x. For a discrete random variable, the cumulative distribution function is found by summing up the probabilities.
 
-###Single Channel Queuing Problems
+### Single Channel Queuing Problems
 Single-station or single-channel queuing problem is the name applied to those problems in which only one unit (station) is delivering the service as illustrated in Fig, where circles represent the arrival elements (events) and a square represents a station which contains an element being serviced.
 
 
