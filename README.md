@@ -14,9 +14,8 @@
     <li>
       <a href="#Introduction">Introduction</a>
       <ul>
-        <li><a href="#Introduction">Introduction</a></li>
         <li><a href="#Random Variable">Random Variable</a></li>
-        <li><a href="#Single-Channel-Queuing-Problems">Single-Channel-Queuing-Problems</a></li>
+        <li><a href="#Single-Channel Queuing Problems">Single-Channel Queuing Problems</a></li>
         <li><a href="#Poisson Arrivals">Poisson Arrivals</a></li>
         <li><a href="#Exponential Service Times">Exponential Service Times</a></li>
         <li><a href="#Mathematical Analysis">Mathematical Analysis</a></li>
