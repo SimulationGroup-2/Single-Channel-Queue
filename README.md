@@ -105,5 +105,8 @@ For Time Customer Spends in System(min) = waiting time + service time and implem
 - 🥅 NAME:Muntasir Ahmed        ID:CSE 01306090
 - ⚡ NAME:Rifat Bin Anwar       ID:CSE 01306116
 - ⚡ NAME:Pushpita Shil         ID:CSE 01306100
+<!-- LICENSE -->
+## License
 
+Distributed under the MIT License. See `LICENSE` for more information.
 
