@@ -15,7 +15,7 @@
       <a href="#Introduction">Introduction</a>
       <ul>
         <li><a href="#Introduction">Introduction</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Single-Channel Queuing Problems">Single-Channel Queuing Problems</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -45,6 +45,9 @@ The main requirements are listed below:
 To describe queuing problems through mathematical formulation, some assumptions are made by considering arrivals and services as patterned by known function. Equations representing the distribution of the time between arrivals are used with other equations depicting other features such as the distribution of the service time. The relationship existing between these equations is the matter studied in waiting line theory. Arrivals of people or entry requirements (events) are customarily Poisson distributed. The duration of the service provided by people is usually exponentially distributed. For generating interarrival and service times, gamma and Weibull distributions are also utilized depending on the model as the exponential distribution is said to be a special case of
 both of the gamma and Weibull distributions.
 
+## Single-Channel Queuing Problems
+Single-station or single-channel queuing problem is the name applied to those problems in which only one unit (station) is delivering the service as illustrated in Fig, where circles represent the arrival elements (events) and a square represents a station which contains an element being serviced.
+![image](https://user-images.githubusercontent.com/79735184/112728527-f3c79b80-8f51-11eb-9e06-38352dbb290f.png)
 
 
 
