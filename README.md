@@ -100,8 +100,8 @@ For Time Customer Spends in System(min) = waiting time + service time and implem
 <!-- CONTRIBUTING -->
 ## Contributing
 
-- 🔭 NAME:Debashis Das Joy      ID:CSE 01306122
 - 👯 NAME:Subashis Roy Bhowmik  ID:CSE 01306114
+- 🔭 NAME:Debashis Das Joy      ID:CSE 01306122
 - 🥅 NAME:Muntasir Ahmed        ID:CSE 01306090
 - ⚡ NAME:Rifat Bin Anwar       ID:CSE 01306116
 - ⚡ NAME:Pushpita Shil         ID:CSE 01306100
@@ -109,4 +109,12 @@ For Time Customer Spends in System(min) = waiting time + service time and implem
 ## License
 
 Distributed under the GNU License. See [LICENSE](https://github.com/SimulationGroup-2/Single-Channel-Queue/blob/1e3a25915c98be6823b5de18afa3d46ce0f9a873/LICENSE) for more information.
+## Contact
+  Name:Subashis Roy Bhowmik  Email:bhowmiksj@gmail.com
+  Name:Dabasish Das Joy      Email:dabasishdasjoy92@gmail.com
+  NAME:Muntasir Ahmed        Email:muntasir99@gmail.com
+  NAME:Rifat Bin Anwar       Email:rbinanwar@avc.edu
+  NAME:Pushpita Shil         Email:pushpita17@gmail.com
+  
+  
 
