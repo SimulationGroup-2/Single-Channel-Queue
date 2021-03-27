@@ -48,7 +48,7 @@ To describe queuing problems through mathematical formulation, some assumptions 
 both of the gamma and Weibull distributions.
 
 
-###RandomVariable
+#RandomVariable
 A random variable is a variable whose possible values are numerical outcomes of a random phenomenon. There are two types of random variables, discrete and continuous.
 
 A discrete random variable may take on only a countable number of distinct values and thus can be quantified. For example, you can define a random variable X to be the number that comes up when you roll a fair dice. X can take values : [1,2,3,4,5,6] and therefore is a discrete random variable.
@@ -69,15 +69,15 @@ Single-station or single-channel queuing problem is the name applied to those pr
 
 ![image](https://user-images.githubusercontent.com/79735184/112728527-f3c79b80-8f51-11eb-9e06-38352dbb290f.png)
 
-###PoissonArrivals
+#PoissonArrivals
 The Poisson is a discrete probability distribution and yields the number of arrivals in a given time. The exponential distribution is a continuous function and yields the distribution of the time intervals between arrivals. The Poisson distribution considers the behavior of arrivals as occurring at random and postulates the presence of a constant “λ” which is independent of the time. The constant λ represents the mean arrival rate or the number of arrivals per unit of time, and λ 1 is the length of the time interval between two consecutive arrivals. 
 
-###ExponentialService Times
+#ExponentialService Times
 In Exponential Distribution, we can generate an exponentially distributed random variable using scipy.stats module's expon.rvs() method which takes shape parameter scale as its argument which is nothing but 1/lambda in the equation. To shift distribution use the loc argument, size decides the number of random variates in the distribution.
 
 
 
-###MathematicalAnalysis
+#MathematicalAnalysis
 So first we import scipy.stats package for importing necessary function.
 Here we use Poisson and Exponential Distribution to generate interarrival time and service time respectively.
 µ=5.6 customers/minute (arrival rate) λ=1 customers/minute (service rate) for 20 customers.So for Poisson Distribution, we use mu=5.6 and size=19. Because for the first customer there is no interarrival time that's why we use size=19.So for Exponential Distribution we use scale=1,loc=0,size=20.
