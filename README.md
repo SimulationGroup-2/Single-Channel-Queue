@@ -12,10 +12,13 @@
       </ul>
     </li>
     <li>
-      <a href="#Introduction">Introduction</a>
+      <a href="#introduction">Introduction</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#random-variable">Random Variable</a></li>
+        <li><a href="#single-channel-queuing-problems">Single Channel Queuing Problems</a></li>
+        <li><a href="#single-channel-queuing-problems">Single Channel Queuing Problems</a></li>
+        <li><a href="#single-channel-queuing-problems">Single Channel Queuing Problems</a></li>
+        <li><a href="#single-channel-queuing-problems">Single Channel Queuing Problems</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -45,7 +48,7 @@ The main requirements are listed below:
 To describe queuing problems through mathematical formulation, some assumptions are made by considering arrivals and services as patterned by known function. Equations representing the distribution of the time between arrivals are used with other equations depicting other features such as the distribution of the service time. The relationship existing between these equations is the matter studied in waiting line theory. Arrivals of people or entry requirements (events) are customarily Poisson distributed. The duration of the service provided by people is usually exponentially distributed. For generating interarrival and service times, gamma and Weibull distributions are also utilized depending on the model as the exponential distribution is said to be a special case of
 both of the gamma and Weibull distributions.
 
-### Random Variable
+###Random Variable
 
 A random variable is a variable whose possible values are numerical outcomes of a random phenomenon. There are two types of random variables, discrete and continuous.
 
@@ -60,34 +63,24 @@ A curve meeting needed requirements is often known as a density curve. Some exam
 
 There’s another type of distribution that often pops up in literature which you should know about called cumulative distribution function. All random variables (discrete and continuous) have a cumulative distribution function. It is a function giving the probability that the random variable X is less than or equal to x, for every value x. For a discrete random variable, the cumulative distribution function is found by summing up the probabilities.
 
-###SingleChannelQueuingProblems
+###Single Channel Queuing Problems
 Single-station or single-channel queuing problem is the name applied to those problems in which only one unit (station) is delivering the service as illustrated in Fig, where circles represent the arrival elements (events) and a square represents a station which contains an element being serviced.
 
 
 
 ![image](https://user-images.githubusercontent.com/79735184/112728527-f3c79b80-8f51-11eb-9e06-38352dbb290f.png)
 
-* npm
-  ```sh
 
 
-<!-- Introduction -->
-## Introduction
-
-
-
-### Random Variable
-
-
-#PoissonArrivals
+###Poisson Arrivals
 The Poisson is a discrete probability distribution and yields the number of arrivals in a given time. The exponential distribution is a continuous function and yields the distribution of the time intervals between arrivals. The Poisson distribution considers the behavior of arrivals as occurring at random and postulates the presence of a constant “λ” which is independent of the time. The constant λ represents the mean arrival rate or the number of arrivals per unit of time, and λ 1 is the length of the time interval between two consecutive arrivals. 
 
-#ExponentialService Times
+###Exponential Service Times
 In Exponential Distribution, we can generate an exponentially distributed random variable using scipy.stats module's expon.rvs() method which takes shape parameter scale as its argument which is nothing but 1/lambda in the equation. To shift distribution use the loc argument, size decides the number of random variates in the distribution.
 
 
 
-#MathematicalAnalysis
+###Mathematical Analysis
 So first we import scipy.stats package for importing necessary function.
 Here we use Poisson and Exponential Distribution to generate interarrival time and service time respectively.
 µ=5.6 customers/minute (arrival rate) λ=1 customers/minute (service rate) for 20 customers.So for Poisson Distribution, we use mu=5.6 and size=19. Because for the first customer there is no interarrival time that's why we use size=19.So for Exponential Distribution we use scale=1,loc=0,size=20.
@@ -96,6 +89,13 @@ For time service ends time we use we use the formula: current customer time serv
 For waiting time, using the formula: if (current customer arrival time < previous customer time service ends time ) then Previous customer time service ends time - current customer arrival time ELSE "Zero".
 Then finding the customer who waits by counting the value of waiting time which is greater than "Zero".And implemented the logic in for loop.
 For Time Customer Spends in System(min) = waiting time + service time and implemented the logic in for loop. For an idle time, we use the formula: if (previous customer time service ends time < current customer arrival time ) then current customer arrival time - previous customer time service ends time ELSE there is no idle time".Finally generating the whole single-channel queue table. And also find out the average number of customer waiting and Average waiting time for a customer.
+
+* npm
+  ```sh
+
+
+=
+
 
 
 
