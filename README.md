@@ -47,6 +47,9 @@ both of the gamma and Weibull distributions.
 
 ## Single-Channel Queuing Problems
 Single-station or single-channel queuing problem is the name applied to those problems in which only one unit (station) is delivering the service as illustrated in Fig, where circles represent the arrival elements (events) and a square represents a station which contains an element being serviced.
+
+
+
 ![image](https://user-images.githubusercontent.com/79735184/112728527-f3c79b80-8f51-11eb-9e06-38352dbb290f.png)
 
 
