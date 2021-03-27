@@ -40,12 +40,10 @@ The main requirements are listed below:
 * [Pandas](https://pandas.pydata.org/)
 * [Jupyter](https://jupyter.org/)
 
-
-
-
 <!-- Introduction -->
 ## Introduction
-
+To describe queuing problems through mathematical formulation, some assumptions are made by considering arrivals and services as patterned by known function. Equations representing the distribution of the time between arrivals are used with other equations depicting other features such as the distribution of the service time. The relationship existing between these equations is the matter studied in waiting line theory. Arrivals of people or entry requirements (events) are customarily Poisson distributed. The duration of the service provided by people is usually exponentially distributed. For generating interarrival and service times, gamma and Weibull distributions are also utilized depending on the model as the exponential distribution is said to be a special case of
+both of the gamma and Weibull distributions.
 
 
 
