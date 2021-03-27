@@ -25,7 +25,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#uder-spervision">Under Supervision</a></li>
+    <li><a href="#under-spervision">Under Supervision</a></li>
   </ol>
 </details>
 
