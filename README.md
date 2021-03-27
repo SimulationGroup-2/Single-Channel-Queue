@@ -117,8 +117,8 @@ Distributed under the GNU License. See [LICENSE](https://github.com/SimulationGr
   NAME:[Pushpita Shil]         (pshpita17@gmail.com)
   
   <!--Under Supervision -->
- ## Under Supervision
- #Honourable Sir [Muhtadir Shihab](https://github.com/Muhtadir)
+## Under Supervision
+ Honourable Sir [Muhtadir Shihab](https://github.com/Muhtadir)
   
   
 
