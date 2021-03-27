@@ -15,7 +15,7 @@
       <a href="#Introduction">Introduction</a>
       <ul>
         <li><a href="#Introduction">Introduction</a></li>
-         <li><a href="#Random Variable">Random Variable</a></li>
+        <li><a href="#Random Variable">Random Variable</a></li>
         <li><a href="#Single-Channel-Queuing-Problems">Single-Channel-Queuing-Problems</a></li>
         <li><a href="#Poisson Arrivals">Poisson Arrivals</a></li>
         <li><a href="#Exponential Service Times">Exponential Service Times</a></li>
@@ -63,7 +63,7 @@ A curve meeting needed requirements is often known as a density curve. Some exam
 
 There’s another type of distribution that often pops up in literature which you should know about called cumulative distribution function. All random variables (discrete and continuous) have a cumulative distribution function. It is a function giving the probability that the random variable X is less than or equal to x, for every value x. For a discrete random variable, the cumulative distribution function is found by summing up the probabilities.
 
-### Single-Channel Queuing Problems
+###Single-Channel Queuing Problems
 Single-station or single-channel queuing problem is the name applied to those problems in which only one unit (station) is delivering the service as illustrated in Fig, where circles represent the arrival elements (events) and a square represents a station which contains an element being serviced.
 
 
@@ -78,7 +78,7 @@ In Exponential Distribution, we can generate an exponentially distributed random
 
 
 
-##Mathematical Description
+###Mathematical Analysis
 So first we import scipy.stats package for importing necessary function.
 Here we use Poisson and Exponential Distribution to generate interarrival time and service time respectively.
 µ=5.6 customers/minute (arrival rate) λ=1 customers/minute (service rate) for 20 customers.So for Poisson Distribution, we use mu=5.6 and size=19. Because for the first customer there is no interarrival time that's why we use size=19.So for Exponential Distribution we use scale=1,loc=0,size=20.
