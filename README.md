@@ -14,11 +14,11 @@
     <li>
       <a href="#Introduction">Introduction</a>
       <ul>
-        <li><a href="#RandomVariable">Random Variable</a></li>
-        <li><a href="#SingleChannelQueuingProblems">Single-Channel Queuing Problems</a></li>
-        <li><a href="#PoissonArrivals">Poisson Arrivals</a></li>
-        <li><a href="#ExponentialServiceTimes">Exponential Service Times</a></li>
-        <li><a href="#MathematicalAnalysis">Mathematical Analysis</a></li>
+        <li><a href="#RandomVariable">RandomVariable</a></li>
+        <li><a href="#SingleChannelQueuingProblems">SingleChannelQueuingProblems</a></li>
+        <li><a href="#PoissonArrivals">PoissonArrivals</a></li>
+        <li><a href="#ExponentialServiceTimes">ExponentialServiceTimes</a></li>
+        <li><a href="#MathematicalAnalysis">MathematicalAnalysis</a></li>
      </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
