@@ -102,9 +102,9 @@ For Time Customer Spends in System(min) = waiting time + service time and implem
 
 - 👯 NAME:Subashis Roy Bhowmik  ID:CSE 01306114
 - 🔭 NAME:Debashis Das Joy      ID:CSE 01306122
-- 🥅 NAME:Muntasir Ahmed        ID:CSE 01306090
-- ⚡ NAME:Rifat Bin Anwar       ID:CSE 01306116
+- 🥅 NAME:Rifat Bin Anwar       ID:CSE 01306116
 - ⚡ NAME:Pushpita Shil         ID:CSE 01306100
+- ⚡ NAME:Muntasir Ahmed        ID:CSE 01306090
 <!-- LICENSE -->
 ## License
 
